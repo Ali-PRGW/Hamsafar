@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours ",
+  "homepage": "https://github.com/Ali-PRGW/starter#readme",
+  "bugs": {
+    "url": "https://github.com/Ali-PRGW/starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-PRGW/starter.git"
+  },
+  "license": "ISC",
+  "author": "Ali-PRGW",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node node_modules/sass/sass.js sass/main.scss css/style.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
