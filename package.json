@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node node_modules/sass/sass.js sass/main.scss css/style.css --watch"
+    "compile:sass": "node node_modules/sass/sass.js sass/main.scss css/style.css -w"
   },
   "devDependencies": {
     "sass": "^1.105.1"
