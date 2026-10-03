@@ -127,11 +127,27 @@ body {
 }
 
 .u-margin-top-big {
-  margin-bottom: 8rem;
+  margin-top: 8rem;
 }
 
 .u-margin-top-huge {
-  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  overflow: hidden;
+}
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .btn:link, .btn:visited {
@@ -529,7 +545,7 @@ body {
 }
 
 .section-stories {
-  background-color: #f7f7f7;
+  position: relative;
   padding: 15rem 0;
 }
 
