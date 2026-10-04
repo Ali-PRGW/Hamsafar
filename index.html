@@ -28,20 +28,22 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
-      </div>
+      <header class="header__background">
+        <div class="header__logo-box">
+          <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+        </div>
 
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">طبیعت</span>
-          <span class="heading-primary--sub"
-            >خانه‌ای که همیشه در انتظار توست</span
-          >
-        </h1>
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">طبیعت</span>
+            <span class="heading-primary--sub"
+              >خانه‌ای که همیشه در انتظار توست</span
+            >
+          </h1>
 
-        <a href="#" class="btn btn--white btn--animated">با ما همسفر شو</a>
-      </div>
+          <a href="#" class="btn btn--white btn--animated">با ما همسفر شو</a>
+        </div>
+      </header>
     </header>
 
     <main>
@@ -343,7 +345,7 @@
                     id="name"
                     required
                   />
-                  <label for="name" class="form__lable"
+                  <label for="name" class="form__label"
                     >نام و نام خانوادگی</label
                   >
                 </div>
@@ -356,7 +358,38 @@
                     id="email"
                     required
                   />
-                  <label for="email" class="form__lable">ایمیل</label>
+                  <label for="email" class="form__label">ایمیل</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      تورهای کوچک
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      تورهای بزرگ
+                    </label>
+                  </div>
+                </div>
+                <div class="form__button">
+                  <button class="btn btn--green">مرحله بعد &rarr;</button>
                 </div>
               </form>
             </div>
